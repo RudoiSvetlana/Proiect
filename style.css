@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Play&display=swap');
+
+body {
+    background: linear-gradient(rgba(69,103,131,1), rgb(69, 138, 198));
+    min-height: 100vh;
+    padding: 10px 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    color:#e3f1fd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Play', sans-serif;
+    margin-top: 0px;
+}
+.aranjare{
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    font-style: oblique;
+    font-size: 12px;
+}
+.card {
+    margin-bottom: 40px;
+    width:33%;
+    background-color: #ffffffc1;
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid white;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    color: rgb(0, 4, 58);
+    height: 450px;
+}
+
+.card img {
+  max-width: 140px;
+  float: left;
+  margin-right: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+.contact-img {
+    width: 60px;
+    position: relative;
+    top:10px;
+    
+}
+.limbaje {
+    overflow: auto;
+}
+.d1 {
+    display: inline;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+    width: 800px;
+    height: 300px;
+}
+
+.d2 {
+    display: block;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 40px;
+    width: 400px;
+    height: 300px;
+}
+ .fundal {
+    background-image: linear-gradient(grey, lightgrey);
+    color:rgb(20, 20, 20);
+    font-size: 16px;
+ }
+ h4 { font-family: Roboto+Slab;
+    font-size: 26px;
+    color:#c9e360;
+    font-style: italic;
+}
+.spacing {
+    height: 50px;
+}
+
+.galerie {
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+}
+.galerie img {
+    width:250px;
+    height: 230px;
+    object-fit: cover;
+    margin-left: 5px;
+    transition: all 1s;  
+}
+.galerie img:hover{
+    filter:contrast();
+    border-radius: 20px;
+    transform: scale(2) ;
+}
+.comp{
+    font-color: green;
+    font-size: 24px;   
+}
